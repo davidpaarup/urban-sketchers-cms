@@ -5,7 +5,7 @@ import {schemaTypes} from './schemaTypes'
 
 export default defineConfig({
   name: 'default',
-  title: 'usk-oslo',
+  title: 'urban-sketchers-cms',
 
   projectId: 'tc2p7nho',
   dataset: 'production',
