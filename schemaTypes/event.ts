@@ -36,24 +36,6 @@ export const event= defineType({
         validation: Rule => Rule.required()
       },
       {
-        name: 'maxAttendees',
-        title: 'Maximum Attendees',
-        type: 'number'
-      },
-      {
-        name: 'skillLevel',
-        title: 'Skill Level',
-        type: 'string',
-        options: {
-          list: [
-            {title: 'All Levels', value: 'all'},
-            {title: 'Beginner', value: 'beginner'},
-            {title: 'Intermediate', value: 'intermediate'},
-            {title: 'Advanced', value: 'advanced'}
-          ]
-        }
-      },
-      {
         name: 'tags',
         title: 'Tags',
         type: 'array',
