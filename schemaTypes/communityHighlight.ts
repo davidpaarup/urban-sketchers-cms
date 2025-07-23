@@ -8,7 +8,6 @@ export const communityHighlight = defineType({
     { name: 'artist', type: 'string', title: 'Artist' },
     { name: 'artwork', type: 'string', title: 'Artwork' },
     { name: 'medium', type: 'string', title: 'Medium' },
-    { name: 'likes', type: 'number', title: 'Likes' },
     { 
       name: 'image', 
       type: 'image', 
