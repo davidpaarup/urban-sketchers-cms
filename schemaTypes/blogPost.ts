@@ -48,8 +48,7 @@ export const blogPost = defineType({
     {
       name: 'body',
       title: 'Body',
-      type: 'array',
-      of: [{type: 'block'}],
+      type: 'text',
     },
     {
       name: 'tags',
